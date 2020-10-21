@@ -26,7 +26,6 @@ def nyc_pigeon_organizer(data)
         if !re_data[name]
           re_data[name] = {}
         end
-        
       end 
     end 
   end 
