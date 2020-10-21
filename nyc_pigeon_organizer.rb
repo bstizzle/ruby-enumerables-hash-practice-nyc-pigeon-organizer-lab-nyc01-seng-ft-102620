@@ -24,8 +24,9 @@ def nyc_pigeon_organizer(data)
     v.each do |k2, v2|
       v2.each do |name|
         if !re_data[name]
-          re_data[name] = {k => k2}
-        end 
+          re_data[name] = {}
+        end
+        
       end 
     end 
   end 
