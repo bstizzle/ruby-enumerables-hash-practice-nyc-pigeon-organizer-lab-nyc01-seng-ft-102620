@@ -32,7 +32,9 @@ def nyc_pigeon_organizer(data)
         re_data[name][k] << k2
          
       end
-      binding.pry
+
     end 
+    
   end 
+  binding.pry
 end
