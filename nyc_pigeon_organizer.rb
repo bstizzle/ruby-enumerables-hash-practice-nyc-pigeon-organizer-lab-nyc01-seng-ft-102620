@@ -26,7 +26,6 @@ def nyc_pigeon_organizer(data)
         if !re_data[name]
           re_data[name] = {}
         end
-        re_data[name][k] = v2
       end 
     end 
   end 
